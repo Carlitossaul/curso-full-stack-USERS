@@ -1,0 +1,14 @@
+p{
+    border: solid;
+    font-family: Verdana, 3;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+div{
+    border-style: dotted;
+    border-color: chocolate;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

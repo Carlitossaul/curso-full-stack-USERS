@@ -1,0 +1,23 @@
+h1{
+    text-align: left;
+    color: RGB(255,255,255);
+    background: RGB(0,0,0);
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: right;
+}
+p{
+    text-align: justify;
+    color: black;
+    border: solid;
+    border-width: 1px;
+    padding: 4px;
+    border-color: gainsboro;
+    background-color: lightgray;
+    height: 350px;
+    width: 90%;
+
+}
