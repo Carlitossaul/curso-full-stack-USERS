@@ -1,0 +1,15 @@
+p{
+    border-style: solid;
+    border-color: cyan;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 4;
+    height: 240px;
+    width: 70%;
+    background-color: powderblue;
+}
+#p2{
+ max-width: 900px;
+ max-height: 545px;
+ min-height: 400px;
+ min-width: 200px;
+}

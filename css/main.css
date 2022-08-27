@@ -1,0 +1,10 @@
+body {
+    background-color: chocolate;
+}
+h1{
+    background-color: black;
+    font-family: Verdana, Arial;
+    font-size: 3;
+    color: yellow;
+    border-bottom: 3px solid aquamarine;
+}
