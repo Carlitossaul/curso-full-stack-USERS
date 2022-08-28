@@ -1,0 +1,22 @@
+ul{
+    list-style-image: url("flecha-azul.gif");
+    list-style-position: inside;
+    background: #009999;
+    padding: 24px;
+}
+h1{
+    font-display: Verdana;
+    font-size: 24;
+    color: saddlebrown;
+}
+h2{
+    font-display: Verdana;
+    font-size: 20;
+    font-weight: 95;
+    font-stretch: semi-condensed;
+}
+ul li{
+    margin: 8px;
+    padding: 6px;
+    color: snow;
+}

@@ -1,0 +1,16 @@
+h1{
+    color: white;
+    text-shadow: 2px 2px 4px #999999;
+}
+h2{
+    color: black;
+    text-shadow: 2px 2px 8px #336699;
+}
+h3{
+    color: blue;
+    text-shadow: 0 0 8px #39f;
+}
+h4{
+    color: blue;
+    text-shadow: 0 0 3px #ff0000, 0 0 5px #00f;
+}
