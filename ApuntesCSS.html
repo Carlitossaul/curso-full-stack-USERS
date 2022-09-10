@@ -29,7 +29,9 @@ sintaxis:
  
  background-color: color de fondo
  
-border:
+
+
+ border:
 nospermite especificar el estilo, el ancho y el color de los bordes
 <border-style>
 <border-color>
@@ -38,5 +40,47 @@ border-bottom: 3px solid aquamarine; (defino grosor del borde, el tipo de borde 
 
 * si deseamos especificar una configuracion diferente para cada borde debemos utilizar los sub-atributos:
 border-top, border-left, border-right, border-bottom. 
+
+
+Border Style
+podemos optar por un borde grueso, finom solido, doble, interno, resaltado, sin borde u oculto.
+Esto se modifica a travsdek atrubito border-style: nombre del borde
+
+valor - descripcion
+dotted: borde punteado
+dashed: borde discuontinuo
+solid: borde solido
+Double: doble borde
+Groove: borde acanalado en 3D
+ridge: borde estriado en 3d
+inset: borde incrusado en 3D
+outset: borde saliente en 3D
+none: no define ningun limite en los bordes
+Hidden: borde oculto
+Mix: Define n borde combinado varias opciones: el orden de definicion para aplicar los estilos es: superior,derecho,inferior,izquierdo
+
+Border Width: para modificar el ancho
+valores: inherit, thin, medium, thick
+* o por 9px. (pixeles)
+
+Rounded Border: con este atributo redondeamos.
+con border-radius: 2px
+
+
+Height y Width: el alto y el ancho de un elemto
+especificamos: 
+heigth: en pixeles
+width: en porcentajes
+
+* CSS nos permite limitar el ancho y el maximo.
+max-heigth
+max-width
+min-heigth
+min-width
+
+
+
+
+
 
 
