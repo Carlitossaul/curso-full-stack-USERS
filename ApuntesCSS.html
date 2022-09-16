@@ -78,9 +78,103 @@ max-width
 min-heigth
 min-width
 
+margin y padding
+margin es utilizado para crear espacio alrededor de los diferentes elementos que integran una pagina web
+-podemos especificar el tamaño: margin-top, margin-right, margin-botton, margin-left
+-configuramos los laterales por medio de
+
+los valores de espaciado que es posible aplicar a la propiedad margin son:
+-auto
+-lenght: se especifica px, pt, o cm
+-%: especificamos el ancho del elemento
+-inherit: herencia
+-abreviada:     margin: 20px, 40 px, 60 px, 80 px;
+
+padding: para generar espacio alrededor del contenido de un elemento
+-notamos el margen entre el marco y el texto
+*padding permite establecer valores mediante: auto, lenght, %, e inherit
+- de manera individual sobre cada lateral
+-de manera conjunta utilizando una ùnica linea, hasta 4 parametros      padding: 10 px, 20 px, 30 px, 40 px
 
 
+propiedades text
+1. color: a travès de formato hexadecimal o a travès de la combinaciòn rgb
+color: blue
+color: # ff0000
+{
+color: rgb (255,255,255)
+background: rgb (0,0,0)
+
+2. text aling
+para controlar la alineaciòn, combinaciones posibles (izquierda, derecha, centro, justificado)
+
+3. text decoration
+para agregar o eliminar ciertos estilos aplicables a un texto
+para que tenga: subrayado inferior, superior, que estè tachado, y hasta eliminar el subrayado propio de los supervinculos
+{text decoration : overline;}           line-through, underline, none
 
 
+4.text transformation
+esta propiedad nos permite manejar el formato de un texto.
+podemos controlar que el texto se muestre en mayusculas, minusculas o letra capital
+{text- transform:uppercase;}    lowercase,capitalize
 
 
+5. text shadow
+aplicandoles un efecto de sombra
+{text-shadow: 2px, 3px #FE990F;}
+
+-h-shadow   v-shadow    blur-radius color
+
+
+6.text overflow
+para controlar la visualizaciòn de informacion extensa
+con la propiedad text-overflow
+cuando el contenido supera con creces el alto /ancho del elemento en cuestiòn
+{overflow: hidden;} recorta el contenido al tamaño del DIV
+scroll: barras de desplazamiento
+clip
+ellipsis
+
+
+Element Classes
+<p class="copete">loremipsum...</p>
+p.copete{
+    color: cadetblue;
+    font-style: italic;
+}
+
+<div class="alerta">
+        <p>Este es un mensaje de alerta</p>
+    </div>
+
+    .alerta {
+    text-indent: 40px;
+    color: white;
+    background-color: red;
+    border: double;
+    border-color: firebrick;
+    padding: 8px;
+}
+
+
+Hipervinculos:
+loslinks o hipervinculos vienen por defecto en un estilo subyarado.
+* podemos personalizar estos tag <a>
+
+    a:link  un hipervinculo normal, no visitado
+    a:visited   un hipervinculo que ya ha sido visitado por el usuario.
+    a: hover    un hipervinculo donde el cursor del dispositivo se encuentra encima o señalandolo.
+    a:active    un hipervinculo n el momento en el cual es cliqueado o activado.
+
+podemos personalizarlos de tal manera que simulen ser un boton interactivo en lugar de un simple texto con una url adjunta.
+
+a:link, a:visited{   
+}
+a:hover, a:active{
+}
+
+
+Listas CSS
+* a las listas se le pueden dar estilos dinamicos y coloridos.
+- las viñetas se pueden intercambiar or imagenes.
