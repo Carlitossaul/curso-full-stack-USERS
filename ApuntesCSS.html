@@ -126,6 +126,24 @@ aplicandoles un efecto de sombra
 
 -h-shadow   v-shadow    blur-radius color
 
+h1{
+    color: white;
+    text-shadow: 2px 2px 4px #999999;
+}
+h2{
+    color: black;
+    text-shadow: 2px 2px 8px #336699;
+}
+h3{
+    color: blue;
+    text-shadow: 0 0 8px #39f;
+}
+h4{
+    color: blue;
+    text-shadow: 0 0 3px #ff0000, 0 0 5px #00f;
+}
+
+
 
 6.text overflow
 para controlar la visualizaciòn de informacion extensa
@@ -178,3 +196,35 @@ a:hover, a:active{
 Listas CSS
 * a las listas se le pueden dar estilos dinamicos y coloridos.
 - las viñetas se pueden intercambiar or imagenes.
+
+ul{
+    list-style-image: url("flecha-azul.gif");
+    list-style-position: inside;
+    background: #009999;
+    padding: 24px;
+
+list-style-type: nos permite especificar el estilo de viñeta que usaremos en las listas desordenadas
+list-style-image: permite especificar una imagen que remplaza a la viñea
+list-stle-position: especifica si los marcadores dde elementos de lista deben aprecer dentro o fuera del contenido de la lista.
+list-style: esta propiedad simplifica el uso de las otras tres propiedades.En su declaracion agregamos los valores en forma de parametrso con el siguiente orden:
+list-stle-type list-stle-position list-style-image.
+
+
+Display
+permite que formateemos textos de manera determinada, mas alla de como estes esten estrucutradis.
+la ventaja de ello es que podemos controlar la forma en la que tecto o parrfo s visualizara mad allade como este declarada, 
+desde su origen, la forma de mosrar dichi texto.
+
+li{
+    display: inline;
+}
+
+valor           desfcripcion
+inherit:    hereda esta propiedad del elemento padre.
+none:   el elemento no recibira ningn estilo determinado para la propiedad display.
+initial:    aplica el valor por defecto de esta propiedad.
+inline: muestra los lementos afectado en una sola linea continua(valor por defecto)
+block:  muestra los elemtnos n forma de bloque(un elemento <p> por cada uno).
+list-iem_   muesta el lemento como si fuese una lista.
+
+
