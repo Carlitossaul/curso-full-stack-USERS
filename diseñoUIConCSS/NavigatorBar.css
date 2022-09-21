@@ -9,7 +9,7 @@ ul{
     margin: 0;
     padding: 0;
     width: 25%;
-    background-color: darksalmon;
+    background-color:darkcyan;
     position: fixed;
     height: 100%;
     overflow: auto;
@@ -22,12 +22,12 @@ li a{
 
 }
 li a.active{
-background-color: chocolate;
+background-color:darkred;
 color: snow;
 }
 li a:hover:not(.active) {
-    background-color: firebrick;
-    color:cornsilk;
+    background-color:cornflowerblue;
+    color: snow;
 }
 
 div{
