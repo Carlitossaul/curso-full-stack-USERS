@@ -86,3 +86,8 @@ div.redes{
     height: 18%;
     width: 80%;
 }
+.imagenEmpresa{
+    float: left;
+    width: 25%;
+    padding: 1%;
+}
